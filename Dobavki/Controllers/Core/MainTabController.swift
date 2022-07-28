@@ -40,6 +40,7 @@ class MainTabController: UITabBarController {
         let nav = UINavigationController(rootViewController: rootViewController)
         nav.tabBarItem.image = image
         nav.tabBarItem.title = title
+        tabBar.tintColor = .dobavkiGreen
         return nav
     }
 

@@ -39,6 +39,7 @@ class MainViewController: UIViewController {
             style: .done,
             target: self,
             action: #selector(callAlertController))
+        navigationItem.rightBarButtonItem?.tintColor = .dobavkiGreen
         
     }
     
